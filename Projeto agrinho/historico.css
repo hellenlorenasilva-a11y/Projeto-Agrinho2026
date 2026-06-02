@@ -1,0 +1,63 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f7f2;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.container {
+    color: #4caf50;
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+
+}
+
+/* Título pequeno */
+.subtitle {
+    color: #4caf50;
+    font-size: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Menu de relatórios */
+.report-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.report-link {
+    color: #4caf50;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.report-link:hover {
+    text-decoration: underline;
+}
+
+/* Link voltar */
+.back {
+    display: block;
+    text-align: right;
+    margin-top: 40px;
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back:hover {
+    text-decoration: underline;
+}

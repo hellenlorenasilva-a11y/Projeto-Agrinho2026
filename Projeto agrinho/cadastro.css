@@ -1,0 +1,67 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo da página */
+body {
+    background-color: #f0f5f0; /* Verde muito claro, semelhante à imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container do formulário */
+.container {
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Labels */
+label {
+    color: #4CAF50; /* Verde */
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Inputs */
+input {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #a0d68c; /* Verde dos campos */
+    font-size: 16px;
+    color: #333;
+}
+
+/* Placeholder */
+input::placeholder {
+    color: #fff;
+}
+
+/* Botão */
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #a0d68c; /* Verde igual aos inputs */
+    color: #4CAF50; /* Verde mais escuro para o texto */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #8ccf70; /* Verde mais escuro ao passar o mouse */
+}
